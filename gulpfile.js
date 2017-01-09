@@ -128,6 +128,7 @@ gulp.task('gitsend', function() {
 -------------------------------------*/
 gulp.task('serve', function() {
 	connect.server({
+		base: './app',
 		port: 8000,
 		hostname: 'localhost',
 		open: true
