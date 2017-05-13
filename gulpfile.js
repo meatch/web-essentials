@@ -6,7 +6,7 @@ var cssDir = 'assets/css/';
 var jsDir = 'assets/js/';
 
 // Which Git Server (e.g. production || staging)
-var remoteRepo = 'staging';
+var remoteRepo = 'master';
 
 /*-------------------------------------
 | Sass Minification
